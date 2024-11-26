@@ -1,7 +1,7 @@
 {
   "name": "betaapp",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,15 +9,27 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~52.0.11",
+    "@babel/preset-react": "^7.25.9",
+    "@babel/preset-typescript": "^7.26.0",
+    "@expo/metro-runtime": "~4.0.0",
+    "@nestjs/common": "^10.4.9",
+    "@nestjs/mongoose": "^10.1.0",
+    "axios": "^1.7.7",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "expo": "^52.0.11",
     "expo-status-bar": "~2.0.0",
-    "react": "18.3.1",
-    "react-native": "0.76.3"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-native-web": "~0.19.13",
+    "react-router-dom": "^5.3.4"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
-    "@types/react": "~18.3.12",
-    "typescript": "^5.3.3"
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/react-router-dom": "^5.3.3",
+    "typescript": "^5.7.2"
   },
   "private": true
 }
